@@ -1,0 +1,1 @@
+I was able to break up the files between each function as I was supposed to. I was able to work out the posterize function through some bitwise operations. Then for the make file I was able to boil down each object files dependencies through intuition and also guess and check which allowed me to understand it more so.
