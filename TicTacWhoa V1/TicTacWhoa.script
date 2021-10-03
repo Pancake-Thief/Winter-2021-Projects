@@ -1,0 +1,1293 @@
+Script started on Sun 17 Jan 2021 11:22:44 AM PST
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ gcc Ti
+TicTac*            TicTac.c           TicTacWhoa*        TicTacWhoa.c       TicTacWhoa.script 
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ gcc TicTacWhoa.c -ansi -std=c99 -Wall -o TicTacWHoa[K[K[Khoa
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ ./TicTacWhoa
+[H[2JWelcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _1
+[H[2JHuman v. Human Game Started
+
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [0m [0m|[0m [0m|[0m 
+[0m  ------
+A [0m [0m|[0m [0m|[0m 
+[0m  1 2 3 
+Player X, please choose your move: _A1
+
+[H[2JPlayer X chose A1
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [0m [0m|[0m [0m|[0m 
+[0m  ------
+A [97mX[0m|[0m [0m|[0m 
+[0m  1 2 3 
+Player O, please choose your move: _A2
+
+[H[2JPlayer O chose A2
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [0m [0m|[0m [0m|[0m 
+[0m  ------
+A [97mX[0m|[97mO[0m|[0m 
+[0m  1 2 3 
+Player X, please choose your move: _A3
+
+[H[2JPlayer X chose A3
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [0m [0m|[0m [0m|[0m 
+[0m  ------
+A [97mX[0m|[97mO[0m|[97mX
+[0m  1 2 3 
+Player O, please choose your move: _B1
+
+[H[2JPlayer O chose B1
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [97mO[0m|[0m [0m|[0m 
+[0m  ------
+A [97mX[0m|[97mO[0m|[97mX
+[0m  1 2 3 
+Player X, please choose your move: _B2
+
+[H[2JPlayer X chose B2
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [97mO[0m|[97mX[0m|[0m 
+[0m  ------
+A [97mX[0m|[97mO[0m|[97mX
+[0m  1 2 3 
+Player O, please choose your move: _B3
+
+[H[2JPlayer O chose B3
+C [0m [0m|[0m [0m|[0m 
+[0m  ------
+B [97mO[0m|[97mX[0m|[97mO
+[0m  ------
+A [97mX[0m|[97mO[0m|[97mX
+[0m  1 2 3 
+Player X, please choose your move: _C1
+
+[H[2JPlayer X chose C1
+C [97mX[0m|[0m [0m|[0m 
+[0m  ------
+B [97mO[0m|[97mX[0m|[97mO
+[0m  ------
+A [97mX[0m|[97mO[0m|[97mX
+[0m  1 2 3 
+Player X won!!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _C2  3
+[H[2J[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _5
+Size of Board: 5
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _6
+In a Row to Win(less than or equal to 5): 5
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _1
+Player 1 Color Options:
+	97: Default	
+31: Red		32: Green
+33: Yellow 	34: Blue
+35: Magenta	36: Cyan
+Choose Option: _35
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _2
+Player 1 Symbol: L
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _3
+Player 2 Color Options:
+ 	97: Default
+31: Red		32: Green
+33: Yellow	34: Blue
+35: Magenta	36: Cyan
+Choose Option: _36
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _4
+Player 2 Symbol: Q
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _7
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _1
+[H[2JHuman v. Human Game Started
+
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player L, please choose your move: _A1
+
+[H[2JPlayer L chose A1
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A2
+
+[H[2JPlayer Q chose A2
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player L, please choose your move: _A3
+
+[H[2JPlayer L chose A3
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A4
+
+[H[2JPlayer Q chose A4
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[0m 
+[0m  1 2 3 4 5 
+Player L, please choose your move: _A5
+
+[H[2JPlayer L chose A5
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _B1
+
+[H[2JPlayer Q chose B1
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _B2
+
+[H[2JPlayer L chose B2
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _B3
+
+[H[2JPlayer Q chose B3
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[0m [0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _B4
+
+[H[2JPlayer L chose B4
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[0m 
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _B5
+
+[H[2JPlayer Q chose B5
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _E1
+
+[H[2JPlayer L chose E1
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _D2
+
+[H[2JPlayer Q chose D2
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _C1 3
+
+[H[2JPlayer L chose C3
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _D2 3
+
+[H[2JPlayer Q chose D3
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[36mQ[0m|[36mQ[0m|[0m [0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _D4
+
+[H[2JPlayer L chose D4
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[0m 
+[0m  ----------
+C [52m [0m|[0m [0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _E C2
+
+[H[2JPlayer Q chose C2
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+D [0m [0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[0m 
+[0m  ----------
+C [52m [0m|[36mQ[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L, please choose your move: _E5
+
+[H[2JPlayer L chose E5
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[35mL
+[0m  ----------
+D [0m [0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[0m 
+[0m  ----------
+C [52m [0m|[36mQ[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [36mQ[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+A [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  1 2 3 4 5 
+Player L won!!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _2
+[H[2JWill (0)Player or (1)AI Be Player 1?
+Choose Option: 1
+[H[2JHuman vs. AI Game Started
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A2
+
+[H[2JPlayer Q chose A2
+E [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[0m [0m|[0m [0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _E3
+
+[H[2JPlayer Q chose E3
+E [35mL[0m|[35mL[0m|[36mQ[0m|[0m [0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[52m 
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _E5
+
+[H[2JPlayer Q chose E5
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _D2
+
+[H[2JPlayer Q chose D2
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _D3
+
+[H[2JPlayer Q chose D3
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[0m [0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[0m 
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _D5
+
+[H[2JPlayer Q chose D5
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _C1 C 2
+
+[H[2JPlayer Q chose C2
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _C4
+
+[H[2JPlayer Q chose C4
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[0m 
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _C2
+
+[H[2JPlayer Q chose C2
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A3
+
+[H[2JPlayer Q chose A3
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[0m [0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[35mL[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A4
+
+[H[2JPlayer Q chose A4
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[35mL[0m|[0m [0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[36mQ[0m|[0m 
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[35mL[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[36mQ[0m|[0m 
+[0m  1 2 3 4 5 
+Player Q, please choose your move: _A5
+
+[H[2JPlayer Q chose A5
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[35mL[0m|[35mL[0m|[0m [0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[36mQ[0m|[36mQ
+[H[2J[0m  1 2 3 4 5 
+E [35mL[0m|[35mL[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+D [35mL[0m|[36mQ[0m|[36mQ[0m|[35mL[0m|[36mQ
+[0m  ----------
+C [35mL[0m|[36mQ[0m|[35mL[0m|[36mQ[0m|[35mL
+[0m  ----------
+B [35mL[0m|[35mL[0m|[35mL[0m|[35mL[0m|[0m 
+[0m  ----------
+A [0m [0m|[36mQ[0m|[36mQ[0m|[36mQ[0m|[36mQ
+[0m  1 2 3 4 5 
+Tie
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _3
+[H[2J[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _i I messed up my inputs overll aa pping the previous ones
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ 3
+3: Command not found.
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$  ./Ti
+TicTac*     TicTacWhoa* 
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ ./TicTacWhoa
+[H[2JWelcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _3
+[H[2J[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _7
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _ 3
+[H[2J[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _7
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _3
+[H[2J[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _5
+Size of Board: 10
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _6
+In a Row to Win(less than or equal to 10): 10
+[H[2JPlayer 1:
+	1: Text Color
+	2: Symbol(Default 'X')
+Player 2:
+	3: Text Color
+	4: Symbol(Default 'O')
+5: Size of Board(Default 3)
+6: In A Row to Win(Default 3)
+7: Back
+Choose Option: _7
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _1
+[H[2JHuman v. Human Game Started
+
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A1
+
+Player X chose A1
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B1
+
+Player O chose B1
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A2
+
+Player X chose A2
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B2
+
+Player O chose B2
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A3
+
+Player X chose A3
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B3
+
+Player O chose B3
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A4
+
+Player X chose A4
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B4
+
+Player O chose B4
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A5
+
+Player X chose A5
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B5
+
+Player O chose B5
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A6
+
+Player X chose A6
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B6
+
+Player O chose B6
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A7
+
+Player X chose A7
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B7
+
+Player O chose B7
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A8
+
+Player X chose A8
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B8
+
+Player O chose B8
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m [0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A9
+
+Player X chose A9
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m [0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player O, please choose your move: _B9
+
+Player O chose B9
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[0m 
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X, please choose your move: _A10
+
+Player X chose A10
+J [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+I [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+H [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+G [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+F [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+E [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+D [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+C [0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m [0m|[0m 
+[0m  --------------------
+B [97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[97mO[0m|[0m 
+[0m  --------------------
+A [97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX[0m|[97mX
+[0m  1 2 3 4 5 6 7 8 9 10
+Player X won!!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: _4
+]0;sdbrione@crystalcove:hw1[sdbrione@crystalcove hw1]$ exit
+exit
+
+Script done on Sun 17 Jan 2021 11:27:58 AM PST
