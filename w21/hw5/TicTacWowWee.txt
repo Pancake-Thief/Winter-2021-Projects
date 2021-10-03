@@ -1,1 +1,0 @@
-This was not that bad just time consuming translating everything over from pointers to structs as well as making the linked lists. I didnt get to do AI level 4 due to the time constraint but will look in to it in the future
